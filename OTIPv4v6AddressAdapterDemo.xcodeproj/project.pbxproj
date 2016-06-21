@@ -13,6 +13,7 @@
 		425B16BA1D1948F4007A07CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425B16B81D1948F4007A07CA /* Main.storyboard */; };
 		425B16BC1D1948F4007A07CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 425B16BB1D1948F4007A07CA /* Assets.xcassets */; };
 		425B16BF1D1948F4007A07CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425B16BD1D1948F4007A07CA /* LaunchScreen.storyboard */; };
+		425B16C91D1948FF007A07CA /* OTIPv4v6AddressAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 425B16C81D1948FF007A07CA /* OTIPv4v6AddressAdapter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		425B16BB1D1948F4007A07CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		425B16BE1D1948F4007A07CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		425B16C01D1948F4007A07CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		425B16C71D1948FF007A07CA /* OTIPv4v6AddressAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTIPv4v6AddressAdapter.h; sourceTree = "<group>"; };
+		425B16C81D1948FF007A07CA /* OTIPv4v6AddressAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTIPv4v6AddressAdapter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,7 @@
 		425B16A31D1948F4007A07CA = {
 			isa = PBXGroup;
 			children = (
+				425B16C61D1948FF007A07CA /* OTIPv4v6AddressAdapter */,
 				425B16AE1D1948F4007A07CA /* OTIPv4v6AddressAdapterDemo */,
 				425B16AD1D1948F4007A07CA /* Products */,
 			);
@@ -77,6 +81,15 @@
 				425B16B01D1948F4007A07CA /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		425B16C61D1948FF007A07CA /* OTIPv4v6AddressAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				425B16C71D1948FF007A07CA /* OTIPv4v6AddressAdapter.h */,
+				425B16C81D1948FF007A07CA /* OTIPv4v6AddressAdapter.m */,
+			);
+			path = OTIPv4v6AddressAdapter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				425B16C91D1948FF007A07CA /* OTIPv4v6AddressAdapter.m in Sources */,
 				425B16B71D1948F4007A07CA /* ViewController.m in Sources */,
 				425B16B41D1948F4007A07CA /* AppDelegate.m in Sources */,
 				425B16B11D1948F4007A07CA /* main.m in Sources */,

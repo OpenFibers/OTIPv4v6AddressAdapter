@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "OTIPv4v6AddressAdapter.h"
 
 @interface ViewController ()
 
@@ -14,14 +15,11 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    NSString *result = [OTIPv4v6AddressAdapter adaptedAddressForOriginalIPAddress:@"104.128.80.176"];
+    NSLog(@"%@", result);
 }
 
 @end
